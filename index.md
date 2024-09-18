@@ -1,7 +1,7 @@
 ---
 title: Solidity Blogs
 organization: DeepStack Software Pvt. Ltd.
-author-url: "https://www.deepstacksoft.com/"
+organization-url: "https://www.deepstacksoft.com/"
 posted-on: 2024-09-18
 lang: en
 toc-title: Blogs

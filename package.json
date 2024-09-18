@@ -1,0 +1,13 @@
+{
+  "name": "blog-template",
+  "version": "1.0.0",
+  "description": "blog template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "./scripts/generate.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

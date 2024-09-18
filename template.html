@@ -26,6 +26,11 @@ $endfor$
 $if(math)$
   $math$
 $endif$
+  <style>
+    .title {
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
 $for(include-before)$
@@ -42,8 +47,8 @@ $endfor$
     <td class="width-auto">$organization$</td>
   </tr>
   <tr>
-    <th class="width-min">Author URL</th>
-    <td class="width-auto"><a href="$author-url$">$author-url$</a></td>
+    <th class="width-min">Org URL</th>
+    <td class="width-auto"><a href="$organization-url$">$organization-url$</a></td>
   </tr>
   <tr>
     <th class="width-min">Posted on</th>

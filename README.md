@@ -1,4 +1,4 @@
-# The Monospace Web
+# blog-template
 
 ## Setup
 
@@ -14,5 +14,12 @@ direnv allow .
 - Generate the corresponding `index.html` file
 
     ```
-    make index.html
+    npm run generate
+    ```
+
+- Start the server
+
+    ```
+    npm start
+    # Server will be running at http://localhost:3000
     ```
