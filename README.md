@@ -14,12 +14,12 @@ direnv allow .
 - Generate the corresponding `index.html` file
 
     ```
-    npm run generate
+    yarn generate
     ```
 
 - Start the server
 
     ```
-    npm start
+    yarn start
     # Server will be running at http://localhost:3000
     ```
