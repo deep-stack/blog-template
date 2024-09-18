@@ -2,12 +2,12 @@
 title: Solidity Blogs
 organization: DeepStack Software Pvt. Ltd.
 organization-url: "https://www.deepstacksoft.com/"
-posted-on: 2024-09-18
 lang: en
 toc-title: Blogs
 ---
 
 ## Transient Storage Opcodes in Solidity 0.8.24
+**Posted on: 2024-09-18**
 
 Solidity 0.8.24 supports the opcodes included in the upcoming Cancun hardfork and, in particular, the transient storage opcodes TSTORE and TLOAD as per EIP-1153.
 
@@ -22,6 +22,7 @@ An expected canonical use case for transient storage is cheaper reentrancy locks
 <hr>
 
 ## Bug in Deduplication of Verbatim Blocks
+**Posted on: 2024-09-18**
 
 On October 24, Ori Pomerantz reported a bug affecting the use of verbatim builtin in Yul code. After investigating, the team was able to confirm the problem and locate its origin. The bug existed in the Block Deduplicator optimizer step, wherein equivalent assembly blocks are identified and merged. verbatim assembly items surrounded by identical opcodes were incorrectly considered identical and unified.
 
@@ -42,6 +43,7 @@ If your project does not include contracts written purely in Yul or does not use
 <hr>
 
 ## FullInliner Non-Expression-Split Argument Evaluation Order Bug
+**Posted on: 2024-09-18**
 
 On July 4, 2023, Robert Chen from OtterSec discovered a bug in the Yul optimizer.
 

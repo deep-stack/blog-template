@@ -10,6 +10,14 @@
   <style>
     .title {
       text-align: left;
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+    .subtitle {
+      text-align: left;
+      font-size: 1em;
+      color: #555;
+      margin-top: 0;
     }
   </style>
 </head>
@@ -28,28 +36,26 @@
     <th class="width-min">Org URL</th>
     <td class="width-auto"><a href="https://www.deepstacksoft.com/">https://www.deepstacksoft.com/</a></td>
   </tr>
-  <tr>
-    <th class="width-min">Posted on</th>
-    <td class="width-auto"><time style="white-space: pre;">2024-09-18</time></td>
   </tr>
 </table>
 <nav id="TOC" role="doc-toc">
-<h2 id="toc-title">Blogs</h2>
-<ul class="incremental">
-<li><a href="#transient-storage-opcodes-in-solidity-0.8.24"
-id="toc-transient-storage-opcodes-in-solidity-0.8.24">Transient Storage
-Opcodes in Solidity 0.8.24</a></li>
-<li><a href="#bug-in-deduplication-of-verbatim-blocks"
-id="toc-bug-in-deduplication-of-verbatim-blocks">Bug in Deduplication of
-Verbatim Blocks</a></li>
-<li><a
-href="#fullinliner-non-expression-split-argument-evaluation-order-bug"
-id="toc-fullinliner-non-expression-split-argument-evaluation-order-bug">FullInliner
-Non-Expression-Split Argument Evaluation Order Bug</a></li>
-</ul>
+      <h2 id="toc-title">Blogs</h2>
+    <ul class="incremental">
+    <li><a href="#transient-storage-opcodes-in-solidity-0.8.24"
+    id="toc-transient-storage-opcodes-in-solidity-0.8.24">Transient
+    Storage Opcodes in Solidity 0.8.24</a></li>
+    <li><a href="#bug-in-deduplication-of-verbatim-blocks"
+    id="toc-bug-in-deduplication-of-verbatim-blocks">Bug in
+    Deduplication of Verbatim Blocks</a></li>
+    <li><a
+    href="#fullinliner-non-expression-split-argument-evaluation-order-bug"
+    id="toc-fullinliner-non-expression-split-argument-evaluation-order-bug">FullInliner
+    Non-Expression-Split Argument Evaluation Order Bug</a></li>
+    </ul>
 </nav>
 <h2 id="transient-storage-opcodes-in-solidity-0.8.24">Transient Storage
 Opcodes in Solidity 0.8.24</h2>
+<p><strong>Posted on: 2024-09-18</strong></p>
 <p>Solidity 0.8.24 supports the opcodes included in the upcoming Cancun
 hardfork and, in particular, the transient storage opcodes TSTORE and
 TLOAD as per EIP-1153.</p>
@@ -81,6 +87,7 @@ the help of transient storage</figcaption>
 <hr>
 <h2 id="bug-in-deduplication-of-verbatim-blocks">Bug in Deduplication of
 Verbatim Blocks</h2>
+<p><strong>Posted on: 2024-09-18</strong></p>
 <p>On October 24, Ori Pomerantz reported a bug affecting the use of
 verbatim builtin in Yul code. After investigating, the team was able to
 confirm the problem and locate its origin. The bug existed in the Block
@@ -112,6 +119,7 @@ not use verbatim, then there is no risk of it being impacted.
 <h2
 id="fullinliner-non-expression-split-argument-evaluation-order-bug">FullInliner
 Non-Expression-Split Argument Evaluation Order Bug</h2>
+<p><strong>Posted on: 2024-09-18</strong></p>
 <p>On July 4, 2023, Robert Chen from OtterSec discovered a bug in the
 Yul optimizer.</p>
 <p>The earliest affected version of the compiler is 0.6.7, which
