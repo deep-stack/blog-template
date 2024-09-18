@@ -1,16 +1,18 @@
 # The Monospace Web
 
-Monospace fonts are dear to many of us. Some find them more readable, consistent, and beautiful, than their proportional alternatives. Maybe we’re just brainwashed from spending years in terminals? Or are we hopelessly nostalgic? I’m not sure. But I like them, and that’s why I started experimenting with all-monospace Web.
-
-https://owickstrom.github.io/the-monospace-web/
-
-## Build
+## Setup
 
 ```
-nix develop # or `direnv allow .`
-make
+# Give permission for `direnv` to use the env config defined in the `.envrc` file in the current directory.
+direnv allow .
 ```
 
-## License
+## Usage
 
-[MIT](LICENSE.md)
+- Modify the `index.md` file content
+
+- Generate the corresponding `index.html` file
+
+    ```
+    make index.html
+    ```
