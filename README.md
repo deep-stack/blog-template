@@ -20,6 +20,5 @@ direnv allow .
 - Start the server
 
     ```
-    yarn start
-    # Server will be running at http://localhost:3000
+    serve public
     ```
