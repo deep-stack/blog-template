@@ -20,10 +20,14 @@
 
   - Download the latest release of Pandoc from the [official site](https://github.com/jgm/pandoc/releases)
 
+    ```bash
+    wget https://github.com/jgm/pandoc/releases/download/<version>/pandoc-<version>-linux-<system-arch>.tar.gz
+    ```
+
   - Unpack the tarball
 
     ```
-    tar -xvzf path/to/downloaded/release
+    tar -xvzf path/to/downloaded/release/pandoc-<version>-linux-<system-arch>.tar.gz
     ```
 
   - Move Pandoc to `/usr/local/bin`:
@@ -40,7 +44,7 @@
 
   - For installation on other platforms follow the [official docs](https://pandoc.org/installing.html)
 
-## Deploy
+## Development & Deployment
 
 - Modify the content in [index.md](./index.md)
 
