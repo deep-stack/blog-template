@@ -29,5 +29,5 @@
 - Deploy the app
 
   ```
-  serve public
+  yarn serve public
   ```
