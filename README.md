@@ -2,14 +2,15 @@
 
 ## Setup
 
-```
-# Give permission for `direnv` to use the env config defined in the `.envrc` file in the current directory.
-direnv allow .
-```
+- Install dependencies
+
+    ```
+    yarn
+    ```
 
 ## Usage
 
-- Modify the `index.md` file content
+- Modify the content in [index.md](./index.md)
 
 - Generate the corresponding `index.html` file
 
@@ -17,7 +18,7 @@ direnv allow .
     yarn generate
     ```
 
-- Start the server
+- Deploy the app
 
     ```
     serve public
