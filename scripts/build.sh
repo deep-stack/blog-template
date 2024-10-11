@@ -4,7 +4,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Function to copy the files from src to public
-move-files() {
+move_files() {
   # Define the source and destination directories
   SOURCE_DIR="$SCRIPT_DIR/../src"
   DEST_DIR="$SCRIPT_DIR/../public"
@@ -17,7 +17,7 @@ move-files() {
 
 
 # Function to generate HTML files
-build-html() {
+build_html() {
   echo "Generating HTML files for all markdown file."
   
   SRC_DIR="$SCRIPT_DIR/../src"
@@ -70,10 +70,10 @@ clean() {
 if [ "$1" == "clean" ]; then
   clean
 elif [ "$1" == "move-files" ]; then
-  move-files
+  move_files
 elif [ "$1" == "build-html" ]; then
-  build-html
+  build_html
 else
-  move-files
-  build-html
+  move_files
+  build_html
 fi
